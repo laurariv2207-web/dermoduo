@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="DermoDuo: cuidado facial y belleza natural en una experiencia digital personalizada, inclusiva y sencilla.">
+<meta name="theme-color" content="#163f3a">
+<title>DermoDuo | Tu piel, tu equilibrio</title>
+<style>
+:root{--green:#163f3a;--green2:#245b52;--mint:#dcebe4;--cream:#fbf8f1;--peach:#e9b6a5;--ink:#202a27;--muted:#66736d;--white:#fff;--line:#e3e8e2;--shadow:0 18px 50px rgba(22,63,58,.10)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55}a{color:inherit;text-decoration:none}button,input,select{font:inherit}.wrap{width:min(1120px,92%);margin:auto}.announcement{background:var(--green);color:#fff;text-align:center;font-size:.82rem;padding:9px 12px;letter-spacing:.04em}.nav{display:flex;align-items:center;justify-content:space-between;padding:20px 0;gap:20px}.brand{font-family:Georgia,serif;font-size:1.8rem;font-weight:bold;letter-spacing:.02em;color:var(--green)}.brand span{display:block;font-family:inherit;font-size:.64rem;letter-spacing:.23em;font-weight:500;margin-top:-5px}.navlinks{display:flex;align-items:center;gap:25px;font-size:.91rem;color:#3f504a}.navlinks a:hover{color:var(--green2)}.btn{border:0;border-radius:999px;background:var(--green);color:white;padding:13px 21px;display:inline-flex;align-items:center;justify-content:center;gap:8px;font-weight:650;cursor:pointer;transition:.2s}.btn:hover{background:var(--green2);transform:translateY(-1px)}.btn.light{background:#fff;color:var(--green);border:1px solid var(--line)}.btn.peach{background:var(--peach);color:#34251f}.hero{padding:44px 0 76px;display:grid;grid-template-columns:1.02fr .98fr;gap:50px;align-items:center}.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.76rem;font-weight:750;color:var(--green2)}h1,h2,h3,p{margin-top:0}h1,h2{font-family:Georgia,"Times New Roman",serif;font-weight:500;letter-spacing:-.035em;color:var(--green);line-height:1.06}h1{font-size:clamp(2.8rem,5.2vw,5rem);margin:18px 0 20px}h1 em{font-weight:400;color:#b56e5d}h2{font-size:clamp(2rem,3.5vw,3.25rem);margin-bottom:18px}.hero p{font-size:1.1rem;color:var(--muted);max-width:540px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}.trust{display:flex;gap:22px;flex-wrap:wrap;font-size:.84rem;color:var(--muted)}.trust span:before{content:"✓";color:var(--green2);font-weight:800;margin-right:7px}.hero-art{position:relative;min-height:465px;border-radius:48% 48% 22px 22px;background:linear-gradient(145deg,#e9d7c8,#f4e9dc 48%,#c9ded4);overflow:hidden;display:flex;align-items:center;justify-content:center}.orb{position:absolute;width:320px;height:320px;border-radius:50%;background:rgba(255,255,255,.44);top:45px;right:7%}.bottle{position:absolute;bottom:70px;width:142px;height:250px;border-radius:30px 30px 24px 24px;background:linear-gradient(90deg,#f8f1e5,#fffaf0 48%,#d9e2d8);box-shadow:16px 25px 35px #8c9c8b66;border:1px solid #fff}.bottle:before{content:"";position:absolute;width:55px;height:42px;left:42px;top:-39px;background:#315b4d;border-radius:8px 8px 3px 3px}.bottle:after{content:"DERMODUO\\A SKIN + BEAUTY\\A ─────\\A daily balance";white-space:pre;position:absolute;left:0;right:0;top:95px;text-align:center;font-family:Georgia,serif;line-height:1.8;font-size:12px;letter-spacing:.08em;color:var(--green)}.bottle.two{width:112px;height:205px;left:16%;bottom:52px;transform:rotate(-10deg);background:linear-gradient(90deg,#e5b3a1,#f8d8ca 48%,#c98976)}.bottle.two:before{width:45px;height:35px;left:33px;top:-32px;background:#9b6558}.bottle.two:after{content:"DERMODUO\\A tinted care";top:78px;color:#4b2e29}.float-note{position:absolute;background:#fffdf7;padding:13px 17px;border-radius:15px;box-shadow:var(--shadow);font-size:.83rem;max-width:170px}.float-note strong{display:block;color:var(--green);font-size:.95rem}.note1{top:58px;left:8%}.note2{right:6%;bottom:38px}.section{padding:82px 0}.section.white{background:#fff}.section-head{max-width:680px;margin:0 auto 42px;text-align:center}.section-head p{color:var(--muted)}.pill{display:inline-block;background:var(--mint);color:var(--green);padding:7px 12px;border-radius:999px;font-size:.78rem;font-weight:700}.problem-grid,.feature-grid,.product-grid,.metrics-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.tile{padding:25px;background:white;border:1px solid var(--line);border-radius:20px}.tile .num{width:42px;height:42px;display:grid;place-items:center;border-radius:13px;background:var(--mint);color:var(--green);font-weight:800;margin-bottom:17px}.tile h3{font-size:1.08rem;color:var(--green);margin-bottom:8px}.tile p{color:var(--muted);font-size:.93rem;margin-bottom:0}.value-band{background:var(--green);color:#fff;border-radius:28px;padding:42px;display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center}.value-band h2{color:#fff}.value-band p{color:#d8e5df}.value-list{display:grid;gap:15px}.value-item{display:flex;gap:13px;align-items:flex-start}.check{background:#dcebe4;color:var(--green);border-radius:50%;width:28px;height:28px;flex:0 0 28px;display:grid;place-items:center;font-weight:800}.value-item strong{display:block;margin-bottom:3px}.value-item small{color:#d8e5df;font-size:.9rem}.quizbox{display:grid;grid-template-columns:.8fr 1.2fr;gap:35px;align-items:start}.quiz-intro{position:sticky;top:20px}.quiz{background:#fff;border:1px solid var(--line);border-radius:24px;padding:28px;box-shadow:var(--shadow)}.progress{height:6px;border-radius:9px;background:#edf0ec;overflow:hidden;margin-bottom:22px}.progress span{display:block;height:100%;width:0;background:var(--green2);transition:width .2s}.question{font-weight:750;font-size:1.15rem;margin-bottom:16px}.options{display:grid;gap:10px}.option{display:flex;align-items:center;gap:10px;padding:13px 14px;border:1px solid var(--line);border-radius:13px;cursor:pointer}.option:has(input:checked){border-color:var(--green2);background:#f0f7f3}.option input{accent-color:var(--green2)}.quiz-footer{display:flex;justify-content:space-between;gap:12px;margin-top:22px}.result{display:none;background:var(--mint);border-radius:17px;padding:20px;margin-top:18px}.result h3{color:var(--green)}.disclaimer{font-size:.78rem;color:var(--muted);margin:14px 0 0}.product{overflow:hidden;padding:0;cursor:pointer;transition:transform .18s,box-shadow .18s}.product:hover{transform:translateY(-3px);box-shadow:var(--shadow)}.product-art{height:180px;display:grid;place-items:center;background:linear-gradient(145deg,#f3e0d7,#dcebe4)}.product-art .jar{width:95px;height:95px;border-radius:23px 23px 28px 28px;background:#fff9ef;box-shadow:8px 12px 22px #526c5b33;position:relative}.product-art .jar:before{content:"";position:absolute;top:-14px;left:13px;width:69px;height:18px;border-radius:6px;background:var(--green2)}.product-art .jar:after{content:"DermoDuo";position:absolute;top:40px;left:0;right:0;text-align:center;font-family:Georgia,serif;font-size:12px;color:var(--green)}.product:nth-child(2) .product-art{background:linear-gradient(145deg,#e8d5c8,#f7eddf)}.product:nth-child(3) .product-art{background:linear-gradient(145deg,#e1e9d8,#c7ddd4)}.product-body{padding:21px}.product-body p{color:var(--muted);font-size:.9rem}.product-tag{font-size:.74rem;color:#a15d4d;text-transform:uppercase;letter-spacing:.1em;font-weight:800}.market{background:#f1f5ef}.metric-card{background:white;border:1px solid var(--line);border-radius:18px;padding:23px}.metric-card .big{font-family:Georgia,serif;font-size:2.1rem;color:var(--green);line-height:1.1;margin:10px 0}.metric-card p{font-size:.88rem;color:var(--muted);margin:0}.metric-card .label{font-size:.76rem;text-transform:uppercase;letter-spacing:.09em;font-weight:750;color:#8b6d60}.tracker{margin-top:25px;background:#fff;border:1px solid var(--line);border-radius:20px;padding:25px}.tracker h3{color:var(--green)}.tracker-row{display:flex;justify-content:space-between;gap:15px;padding:12px 0;border-bottom:1px solid var(--line);font-size:.92rem}.tracker-row:last-child{border:0}.tracker-row span:last-child{font-weight:750;color:var(--green);text-align:right}.tracker button{margin-top:15px}.contact{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}.contact-card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:28px}.contact-card a{color:var(--green2);font-weight:700}.footer{background:#102f2b;color:#d7e3de;padding:35px 0}.footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer .brand{color:white}.footer small{color:#a9c0b7}.fineprint{font-size:.76rem;color:#a9c0b7;max-width:700px;margin-top:20px}.mobile-menu{display:none}
+
+/* Encuesta y analítica mejoradas */
+.survey-shell{background:#fff;border:1px solid var(--line);border-radius:26px;padding:clamp(20px,4vw,38px);box-shadow:var(--shadow)}
+.survey-top{display:flex;justify-content:space-between;gap:18px;align-items:center;margin-bottom:16px}
+.survey-step{font-size:.82rem;color:var(--muted);font-weight:700}
+.survey-progress{height:8px;background:#edf0ec;border-radius:99px;overflow:hidden;margin-bottom:28px}
+.survey-progress span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--green2),#8ab6a3);transition:width .25s}
+.survey-question{font-family:Georgia,serif;color:var(--green);font-size:clamp(1.45rem,3vw,2rem);line-height:1.2;margin:0 0 10px}
+.survey-help{color:var(--muted);font-size:.93rem;margin-bottom:23px}
+.survey-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.survey-option{display:flex;gap:11px;align-items:flex-start;padding:15px;border:1px solid var(--line);border-radius:15px;cursor:pointer;min-height:68px;transition:.15s}
+.survey-option:hover{border-color:#9bb9ac;background:#f8fbf8}
+.survey-option:has(input:checked){border-color:var(--green2);background:#edf6f0;box-shadow:inset 0 0 0 1px var(--green2)}
+.survey-option input{margin-top:4px;accent-color:var(--green2)}
+.survey-option strong{display:block;color:var(--green);font-size:.92rem}
+.survey-option small{display:block;color:var(--muted);font-size:.8rem;margin-top:3px}
+.survey-controls{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:26px}
+.survey-controls .right{display:flex;gap:10px}
+.survey-error{color:#a13d31;font-size:.86rem;margin-top:12px;min-height:1.2em}
+.survey-result{display:none}
+.survey-result-card{padding:24px;background:var(--mint);border-radius:18px;margin:18px 0}
+.survey-result-card h3{color:var(--green)}
+.analytics-head{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap}
+.analytics-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:13px;margin:24px 0}
+.analytics-kpi{background:#fff;border:1px solid var(--line);border-radius:17px;padding:19px}
+.analytics-kpi span{display:block;color:var(--muted);font-size:.78rem;font-weight:700}
+.analytics-kpi strong{display:block;font-family:Georgia,serif;font-size:2rem;color:var(--green);line-height:1.2;margin:7px 0}
+.analytics-kpi small{color:var(--muted);font-size:.76rem}
+.analytics-columns{display:grid;grid-template-columns:1fr 1fr;gap:17px}
+.analytics-panel{background:#fff;border:1px solid var(--line);border-radius:19px;padding:22px;min-width:0}
+.analytics-panel h3{color:var(--green);margin-bottom:6px}
+.bar-list{display:grid;gap:14px;margin-top:18px}
+.bar-item{display:grid;grid-template-columns:minmax(90px,1fr) 2fr 32px;gap:10px;align-items:center;font-size:.83rem}
+.bar-track{height:9px;border-radius:99px;background:#edf0ec;overflow:hidden}
+.bar-fill{height:100%;border-radius:99px;background:var(--green2);width:0;transition:width .3s}
+.event-list{display:grid;gap:0;max-height:300px;overflow:auto}
+.event-row{display:flex;justify-content:space-between;gap:15px;padding:11px 0;border-bottom:1px solid var(--line);font-size:.83rem}
+.event-row:last-child{border:0}
+.event-row strong{display:block;color:var(--green)}
+.event-row small{color:var(--muted)}
+.empty-state{padding:22px 10px;text-align:center;color:var(--muted);font-size:.9rem}
+.analytics-note{font-size:.8rem;color:var(--muted);margin:18px 0 0}
+@media(max-width:800px){.analytics-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.analytics-columns{grid-template-columns:1fr}}
+@media(max-width:520px){.survey-options{grid-template-columns:1fr}.survey-controls{align-items:stretch;flex-direction:column}.survey-controls .right{width:100%}.survey-controls .right .btn{flex:1}.analytics-grid{grid-template-columns:1fr 1fr}.bar-item{grid-template-columns:90px 1fr 25px}}
+
+@media(max-width:800px){.navlinks{display:none}.hero{grid-template-columns:1fr;padding-top:30px;gap:25px}.hero-art{min-height:380px}.problem-grid,.feature-grid,.product-grid,.metrics-grid{grid-template-columns:1fr 1fr}.value-band,.quizbox,.contact{grid-template-columns:1fr}.quiz-intro{position:static}.section{padding:60px 0}.value-band{padding:28px}.nav{padding:15px 0}}
+@media(max-width:520px){.problem-grid,.feature-grid,.product-grid,.metrics-grid{grid-template-columns:1fr}.hero-art{min-height:340px}.bottle{transform:scale(.82);transform-origin:bottom center}.bottle.two{left:6%}.note1{left:4%;top:35px}.note2{right:3%;bottom:18px}.quiz{padding:20px}.section-head{text-align:left}.section-head h2{font-size:2.25rem}.tracker-row{font-size:.83rem}}
+
+/* Fotografía realista de producto y cuidado facial */
+.hero-art{min-height:440px;border-radius:26px;background:#e8e1d5 url('images/hero-skincare.jpg') center center/cover no-repeat;box-shadow:0 22px 55px rgba(25,49,40,.12)}
+.hero-art:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(24,44,35,.05),transparent 58%);pointer-events:none}
+.hero-art .orb,.hero-art .bottle,.hero-art .float-note{display:none}
+.product-art{height:205px;background-position:center;background-size:cover;background-repeat:no-repeat;position:relative}
+.product-art .jar{display:none}
+.product:nth-child(1) .product-art{background-image:url('images/product-balance.jpg')}
+.product:nth-child(2) .product-art{background-image:url('images/product-tint.jpg')}
+.product:nth-child(3) .product-art{background-image:url('images/product-kit.jpg')}
+.product-art:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 65%,rgba(20,40,32,.08))}
+.quiz-intro-photo{width:100%;height:190px;object-fit:cover;display:block;border-radius:20px;margin:20px 0 24px;box-shadow:0 12px 28px rgba(22,63,58,.12)}
+.value-band{background-image:linear-gradient(90deg,rgba(22,63,58,.98),rgba(22,63,58,.90)),url('images/sustainability.jpg');background-size:cover;background-position:center}
+@media(max-width:800px){.hero-art{min-height:360px}}
+@media(max-width:520px){.hero-art{min-height:300px}.product-art{height:220px}}
+</style>
+</head>
+<body>
+<div class="announcement">Cuidado facial con intención · Para todos los géneros · Próximamente</div>
+<header class="wrap nav">
+  <a class="brand" href="#inicio" aria-label="DermoDuo inicio">DermoDuo<span>SKIN + BEAUTY</span></a>
+  <nav class="navlinks" aria-label="Navegación principal">
+    <a href="#propuesta">Nuestra propuesta</a><a href="#diagnostico">Test de piel</a><a href="#productos">Soluciones</a><a href="#impacto">Impacto</a>
+  </nav>
+  <a class="btn" href="#diagnostico">Descubre tu rutina ↗</a>
+</header>
+
+<main>
+<section class="wrap hero" id="inicio">
+  <div>
+    <div class="eyebrow">Una nueva forma de cuidar tu piel</div>
+    <h1>Tu piel.<br>Tu equilibrio.<br><em>Tu versión natural.</em></h1>
+    <p>Unimos cuidado dermocosmético y belleza ligera para ayudarte a elegir mejor, simplificar tu rutina y sentirte bien en tu propia piel.</p>
+    <div class="actions"><a class="btn" href="#diagnostico">Haz el test gratuito <span>→</span></a><a class="btn light" href="#propuesta">Conoce DermoDuo</a></div>
+    <div class="trust"><span>Orientación sencilla</span><span>Inclusivo</span><span>Compra consciente</span></div>
+  </div>
+  <div class="hero-art" role="img" aria-label="Fotografía de una persona y productos de cuidado facial DermoDuo">
+    <div class="orb"></div><div class="bottle"></div><div class="bottle two"></div>
+    <div class="float-note note1"><strong>Menos dudas.</strong>Más claridad en tu rutina.</div>
+    <div class="float-note note2"><strong>Skin + Beauty</strong>Cuidado que acompaña tu día.</div>
+  </div>
+</section>
+
+<section class="section white" id="propuesta">
+ <div class="wrap">
+  <div class="section-head"><span class="pill">El problema que queremos resolver</span><h2>El cuidado de la piel no debería ser una compra a ciegas.</h2><p>Las tendencias pueden confundir. DermoDuo propone una experiencia digital más clara, guiada y accesible para tomar decisiones de cuidado personal.</p></div>
+  <div class="problem-grid">
+   <article class="tile"><div class="num">01</div><h3>Demasiadas tendencias</h3><p>Elegir productos solo porque se hicieron virales no siempre responde a las necesidades reales de cada piel.</p></article>
+   <article class="tile"><div class="num">02</div><h3>Rutinas que no encajan</h3><p>La falta de orientación puede llevar a combinar productos inadecuados o gastar en soluciones que no se necesitan.</p></article>
+   <article class="tile"><div class="num">03</div><h3>Una experiencia poco inclusiva</h3><p>Creemos que el cuidado personal debe ser sencillo, comprensible y pensado para personas de todos los géneros.</p></article>
+  </div>
+ </div>
+</section>
+
+<section class="section">
+ <div class="wrap">
+  <div class="value-band">
+   <div><div class="eyebrow" style="color:#b8d9ca">Nuestra propuesta de valor</div><h2>Dos mundos.<br>Una rutina más simple.</h2><p>DermoDuo combina la idea de tratamiento y belleza ligera en una experiencia digital que acompaña al cliente desde la orientación inicial hasta el seguimiento posterior a la compra.</p><a class="btn peach" href="#productos">Explorar soluciones ↗</a></div>
+   <div class="value-list">
+    <div class="value-item"><div class="check">✓</div><div><strong>Fórmulas híbridas</strong><small>La propuesta integra cuidado dermocosmético y maquillaje ligero en un solo paso.</small></div></div>
+    <div class="value-item"><div class="check">✓</div><div><strong>Orientación guiada</strong><small>Un test inicial ayuda a entender preferencias y necesidades generales de la rutina.</small></div></div>
+    <div class="value-item"><div class="check">✓</div><div><strong>Inclusión y sostenibilidad</strong><small>Identidad neutra, comunicación accesible y enfoque en empaques eco-amigables.</small></div></div>
+    <div class="value-item"><div class="check">✓</div><div><strong>Acompañamiento postventa</strong><small>Seguimiento para apoyar una experiencia de uso más consciente.</small></div></div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="section white" id="diagnostico">
+ <div class="wrap quizbox">
+  <div class="quiz-intro"><img class="quiz-intro-photo" src="images/skin-test.jpg" alt="Rutina de cuidado facial en un ambiente natural"><span class="pill">Encuesta de mercado · 3 minutos</span><h2>Ayúdanos a diseñar una mejor experiencia de cuidado facial.</h2>
+   <p>Queremos entender hábitos, preferencias y expectativas de personas interesadas en el cuidado de la piel. Tus respuestas son anónimas en esta demostración y se usan para mostrar tendencias de interés del público.</p>
+   <div class="tile" style="margin-top:22px"><div class="num">i</div><h3>¿Para qué sirve?</h3><p>La encuesta ayuda a validar la idea de negocio, priorizar características y conocer qué motiva una compra. No es una evaluación médica.</p></div>
+   <p class="disclaimer">No ingreses datos personales sensibles. Puedes abandonar la encuesta en cualquier momento.</p>
+  </div>
+  <div class="survey-shell">
+   <div id="surveyForm">
+    <div class="survey-top"><span class="pill">Encuesta DermoDuo</span><span class="survey-step" id="surveyStep">Pregunta 1 de 8</span></div>
+    <div class="survey-progress"><span id="surveyProgress"></span></div>
+    <div id="surveyQuestionArea"></div>
+    <div class="survey-error" id="surveyError" aria-live="polite"></div>
+    <div class="survey-controls"><button class="btn light" id="surveyBack" type="button" disabled>← Anterior</button><div class="right"><button class="btn light" id="surveySkip" type="button">Omitir</button><button class="btn" id="surveyNext" type="button">Continuar →</button></div></div>
+   </div>
+   <div class="survey-result" id="surveyResult" aria-live="polite"></div>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="productos">
+ <div class="wrap">
+  <div class="section-head"><span class="pill">Soluciones DermoDuo</span><h2>Una idea de portafolio para tu día a día.</h2><p>Conceptos iniciales que representan la propuesta de la marca. Los productos, fórmulas, disponibilidad y precios se encuentran en etapa de validación.</p></div>
+  <div class="product-grid">
+   <article class="tile product" data-product="Balance Daily" tabindex="0" role="button" aria-label="Ver interacción con Balance Daily"><div class="product-art"><div class="jar"></div></div><div class="product-body"><div class="product-tag">Cuidado diario</div><h3>Balance Daily</h3><p>Concepto de cuidado facial diario para acompañar una rutina simple y constante.</p><span class="pill">Rutina esencial</span></div></article>
+   <article class="tile product" data-product="Tint & Care" tabindex="0" role="button" aria-label="Ver interacción con Tint and Care"><div class="product-art"><div class="jar"></div></div><div class="product-body"><div class="product-tag">Belleza ligera</div><h3>Tint & Care</h3><p>Concepto híbrido que combina una apariencia natural con el enfoque de cuidado personal.</p><span class="pill">Skin + Beauty</span></div></article>
+   <article class="tile product" data-product="My Duo Kit" tabindex="0" role="button" aria-label="Ver interacción con My Duo Kit"><div class="product-art"><div class="jar"></div></div><div class="product-body"><div class="product-tag">Compra inteligente</div><h3>My Duo Kit</h3><p>Kit de rutina pensado para facilitar la elección de productos y elevar la conveniencia.</p><span class="pill">Solución combinada</span></div></article>
+  </div>
+ </div>
+</section>
+
+<section class="section market" id="impacto">
+ <div class="wrap">
+  <div class="section-head"><span class="pill">Analítica de experiencia digital</span><h2>Entender el recorrido es parte del crecimiento.</h2><p>Este panel permite observar eventos registrados en este navegador: visitas, secciones consultadas, interacciones con productos, avance de la encuesta y clics de interés. Es una demostración práctica de cómo una marca puede analizar su experiencia digital.</p></div>
+  <div class="analytics-head"><div><h3 style="color:var(--green);margin-bottom:5px">Panel de interacción</h3><p style="color:var(--muted);font-size:.9rem;margin:0">Datos de demostración en este navegador · se actualizan al interactuar con la página</p></div><div style="display:flex;gap:9px;flex-wrap:wrap"><button class="btn light" id="exportAnalytics" type="button">Exportar eventos CSV</button><button class="btn light" id="resetAnalytics" type="button">Reiniciar datos</button></div></div>
+  <div class="analytics-grid">
+   <article class="analytics-kpi"><span>Sesiones registradas</span><strong id="kpiSessions">0</strong><small>Visitas a esta página en este navegador</small></article>
+   <article class="analytics-kpi"><span>Encuestas completadas</span><strong id="kpiSurveys">0</strong><small>Personas que terminaron la encuesta en este navegador</small></article>
+   <article class="analytics-kpi"><span>Clics de interés</span><strong id="kpiInterest">0</strong><small>Interacciones con el botón de lanzamiento</small></article>
+   <article class="analytics-kpi"><span>Finalización de encuesta</span><strong id="kpiCompletion">0%</strong><small>Encuestas completadas ÷ encuestas iniciadas</small></article>
+  </div>
+  <div class="analytics-columns">
+   <div class="analytics-panel"><h3>Interacción por sección</h3><p style="color:var(--muted);font-size:.85rem">Secciones vistas durante esta navegación. Una sección cuenta cuando entra en pantalla.</p><div class="bar-list" id="sectionBars"></div></div>
+   <div class="analytics-panel"><h3>Embudo de la encuesta</h3><p style="color:var(--muted);font-size:.85rem">Permite identificar en qué parte las personas dejan de responder.</p><div class="bar-list" id="surveyFunnel"></div></div>
+   <div class="analytics-panel"><h3>Interés por concepto de producto</h3><p style="color:var(--muted);font-size:.85rem">Registra cuando una persona pulsa una tarjeta del catálogo.</p><div class="bar-list" id="productBars"></div></div>
+   <div class="analytics-panel"><h3>Actividad reciente</h3><p style="color:var(--muted);font-size:.85rem">Últimos eventos registrados en este navegador.</p><div class="event-list" id="eventList"></div></div>
+  </div>
+  <div class="analytics-panel" style="margin-top:17px"><h3>Resumen de respuestas de la encuesta</h3><p style="color:var(--muted);font-size:.85rem">Distribución local de las respuestas completadas. No representa una muestra de mercado hasta que se recolecten respuestas reales de múltiples visitantes.</p><div class="bar-list" id="answerSummary"></div><div class="empty-state" id="answerEmpty">Todavía no hay encuestas completadas en este navegador. Completa la encuesta para ver cómo se actualiza el panel.</div></div>
+  <p class="analytics-note"><strong>Limitación importante:</strong> estos datos se almacenan localmente en el navegador y no se envían a un servidor. Sirven para demostrar la interacción en una exposición, pero no consolidan automáticamente la actividad de diferentes usuarios o dispositivos. Para medir el mercado real, publica la web y conecta una herramienta como Google Analytics 4 con eventos de encuesta, navegación y clics. No se recopilan nombres, correos ni respuestas médicas.</p>
+ </div>
+</section>
+
+<section class="section white" id="contacto">
+ <div class="wrap contact">
+  <div><span class="pill">Sé parte del lanzamiento</span><h2>Tu opinión puede mejorar la próxima rutina.</h2><p style="color:var(--muted)">Estamos validando esta propuesta. Si te interesa conocer novedades de DermoDuo, contáctanos o comparte qué te gustaría encontrar en una experiencia de cuidado facial.</p><button class="btn" id="interestBtn" type="button">Quiero conocer el lanzamiento ↗</button><p class="disclaimer">Este botón registra una interacción de demostración; no envía datos ni suscribe automáticamente a una lista.</p></div>
+  <div class="contact-card"><h3>Hablemos</h3><p><strong>Correo</strong><br><a href="mailto:dermodou@email.com">dermodou@email.com</a></p><p><strong>Instagram</strong><br><a href="https://www.instagram.com/dermodou" target="_blank" rel="noopener">@dermodou</a></p><p><strong>Teléfono</strong><br><a href="tel:+573153257852">315 325 7852</a></p><hr style="border:0;border-top:1px solid var(--line);margin:20px 0"><p style="font-size:.88rem;color:var(--muted);margin:0">DermoDuo es una propuesta de emprendimiento en etapa inicial. La información del sitio presenta el concepto del proyecto y no constituye consejo médico.</p></div>
+ </div>
+</section>
+</main>
+<footer class="footer"><div class="wrap"><div class="footer-inner"><div class="brand">DermoDuo<span>SKIN + BEAUTY</span></div><small>© <span id="year"></span> DermoDuo · Proyecto académico de emprendimiento</small></div><p class="fineprint">Los nombres de productos y elementos visuales del catálogo son conceptos ilustrativos. No se anuncian productos disponibles ni resultados dermatológicos comprobados. La información de mercado y las proyecciones financieras deben validarse con investigación real antes de usarse para decisiones de inversión.</p></div></footer>
+<script>
+const surveyQuestions = [
+ {key:'age', title:'¿En qué rango de edad te encuentras?', help:'Esta pregunta ayuda a comprender a qué público llega la propuesta.', type:'single', options:[['18-21','18 a 21 años',''],['22-25','22 a 25 años',''],['26-30','26 a 30 años',''],['31+','Más de 30 años',''],['skip','Prefiero no decirlo','']]},
+ {key:'skin', title:'¿Cómo describirías tu piel habitualmente?', help:'Elige la opción que más se aproxime a tu experiencia. No es un diagnóstico.', type:'single', options:[['oily','Tiende a verse brillante','Especialmente en la zona T'],['dry','Suele sentirse seca o tirante','Necesita más sensación de confort'],['combination','Tiene zonas secas y zonas brillantes','Comportamiento mixto'],['normal','No identifico una característica marcada','Se siente relativamente equilibrada'],['unsure','No estoy seguro/a','Me gustaría recibir orientación']]},
+ {key:'concern', title:'¿Qué te gustaría mejorar de tu experiencia de cuidado facial?', help:'Puedes seleccionar hasta dos opciones.', type:'multi', max:2, options:[['simplicity','Simplificar mi rutina','Menos pasos y decisiones'],['hydration','Hidratación y confort','Sensación de piel cuidada'],['oil','Controlar el brillo','Una rutina que se adapte a mis preferencias'],['appearance','Un acabado natural','Cuidado y belleza ligera'],['budget','Gastar de forma más consciente','Comprar solo lo que necesito'],['guidance','Entender mejor los ingredientes','Información clara y sencilla']]},
+ {key:'buying', title:'¿Cómo eliges actualmente tus productos de cuidado facial?', help:'Queremos entender qué influye en tus decisiones.', type:'single', options:[['social','Redes sociales e influencers','Tendencias y recomendaciones'],['professional','Recomendación profesional','Dermatólogo/a u otro profesional'],['friends','Familiares o amistades','Experiencias de personas cercanas'],['research','Investigo ingredientes y reseñas','Comparo antes de comprar'],['store','Asesoría en tienda o farmacia','Orientación presencial']]},
+ {key:'frequency', title:'¿Con qué frecuencia compras productos faciales?', help:'Piensa en tu comportamiento habitual durante el último año.', type:'single', options:[['monthly','Una vez al mes o más','Reposición frecuente'],['quarterly','Cada 2 a 4 meses','Compra periódica'],['rarely','Dos o tres veces al año','Compra ocasional'],['never','Casi nunca o nunca','Aún no tengo una rutina']]},
+ {key:'budget', title:'¿Qué presupuesto aproximado destinarías al mes al cuidado facial?', help:'Valor orientativo en pesos colombianos (COP).', type:'single', options:[['under50','Menos de $50.000 COP','Presupuesto básico'],['50-100','$50.000 a $100.000 COP','Presupuesto medio'],['100-200','$100.000 a $200.000 COP','Presupuesto ampliado'],['over200','Más de $200.000 COP','Según necesidad y producto'],['unsure','No tengo un presupuesto definido','Depende de la compra']]},
+ {key:'value', title:'¿Qué te animaría más a probar una marca como DermoDuo?', help:'Selecciona hasta dos factores decisivos.', type:'multi', max:2, options:[['personalization','Orientación personalizada','Ayuda para elegir una rutina'],['hybrid','Productos híbridos','Cuidado facial y belleza ligera'],['price','Precio y kits accesibles','Opciones que se ajusten a mi presupuesto'],['ingredients','Transparencia en ingredientes','Información fácil de verificar'],['inclusive','Comunicación inclusiva','Una marca para todos los géneros'],['followup','Seguimiento postventa','Consejos y recordatorios útiles']]},
+ {key:'channel', title:'¿Por qué canal preferirías conocer o comprar estos productos?', help:'Tu respuesta ayuda a priorizar los canales de lanzamiento.', type:'single', options:[['website','Tienda web oficial','Comprar directamente en la página'],['instagram','Instagram o TikTok','Descubrir y consultar por redes'],['whatsapp','WhatsApp','Resolver dudas antes de comprar'],['marketplace','Marketplace','Comparar varias marcas'],['physical','Tienda física o farmacia','Ver el producto presencialmente']]}
+];
+let surveyStep=0, surveyAnswers={}, surveyStarted=false;
+const $=id=>document.getElementById(id);
+const sectionNames={inicio:'Inicio',propuesta:'Nuestra propuesta',diagnostico:'Encuesta',productos:'Productos',impacto:'Panel de métricas',contacto:'Contacto'};
+function getAnalytics(){try{return JSON.parse(localStorage.getItem('dermoduoAnalyticsV2')||'null')||{sessions:0,events:[],sections:{},products:{},answers:{},surveyStarts:0,surveyCompletes:0,interest:0}}catch(e){return {sessions:0,events:[],sections:{},products:{},answers:{},surveyStarts:0,surveyCompletes:0,interest:0}}}
+function saveAnalytics(d){try{localStorage.setItem('dermoduoAnalyticsV2',JSON.stringify(d))}catch(e){}}
+function logEvent(name,detail=''){let d=getAnalytics();d.events.unshift({name,detail,time:new Date().toISOString()});d.events=d.events.slice(0,150);saveAnalytics(d);renderAnalytics()}
+function startSurvey(){if(!surveyStarted){surveyStarted=true;let d=getAnalytics();d.surveyStarts++;saveAnalytics(d);logEvent('survey_started','La persona inició la encuesta')} }
+function renderSurvey(){const q=surveyQuestions[surveyStep];$('surveyStep').textContent=`Pregunta ${surveyStep+1} de ${surveyQuestions.length}`;$('surveyProgress').style.width=((surveyStep+1)/surveyQuestions.length*100)+'%';$('surveyBack').disabled=surveyStep===0;$('surveyNext').textContent=surveyStep===surveyQuestions.length-1?'Enviar respuestas ✓':'Continuar →';$('surveyError').textContent='';
+ let values=surveyAnswers[q.key]||[];
+ $('surveyQuestionArea').innerHTML=`<h3 class="survey-question">${q.title}</h3><p class="survey-help">${q.help}${q.type==='multi'?' <strong>Máximo '+q.max+'.</strong>':''}</p><div class="survey-options">${q.options.map(o=>`<label class="survey-option"><input type="${q.type==='multi'?'checkbox':'radio'}" name="survey_${q.key}" value="${o[0]}" ${values.includes(o[0])?'checked':''}><span><strong>${o[1]}</strong>${o[2]?`<small>${o[2]}</small>`:''}</span></label>`).join('')}</div>`;
+ $('surveyQuestionArea').querySelectorAll('input').forEach(inp=>inp.addEventListener('change',()=>{if(q.type==='multi'){let checked=[...$('surveyQuestionArea').querySelectorAll('input:checked')];if(checked.length>q.max){inp.checked=false;$('surveyError').textContent=`Puedes seleccionar hasta ${q.max} opciones.`;return}surveyAnswers[q.key]=checked.map(x=>x.value)}else{surveyAnswers[q.key]=[inp.value]}logEvent('survey_answered',q.key)}));
+}
+function saveCurrentAnswer(){const q=surveyQuestions[surveyStep];let chosen=[...$('surveyQuestionArea').querySelectorAll('input:checked')].map(x=>x.value);if(chosen.length)surveyAnswers[q.key]=chosen;if(q.type==='single'&&!chosen.length){$('surveyError').textContent='Selecciona una respuesta o utiliza “Omitir” para continuar.';return false}return true}
+function skipQuestion(){const q=surveyQuestions[surveyStep];surveyAnswers[q.key]=['(omitida)'];logEvent('survey_question_skipped',q.key);advanceSurvey()}
+function advanceSurvey(){if(surveyStep<surveyQuestions.length-1){surveyStep++;renderSurvey()}else{completeSurvey()}}
+function completeSurvey(){let d=getAnalytics();d.surveyCompletes++;Object.entries(surveyAnswers).forEach(([k,v])=>{d.answers[k]=d.answers[k]||{};v.forEach(val=>{if(val!=='(omitida)')d.answers[k][val]=(d.answers[k][val]||0)+1})});d.events.unshift({name:'survey_completed',detail:'Encuesta completa ('+Object.keys(surveyAnswers).length+' preguntas respondidas/omitidas)',time:new Date().toISOString()});d.events=d.events.slice(0,150);saveAnalytics(d);$('surveyForm').style.display='none';$('surveyResult').style.display='block';$('surveyResult').innerHTML=`<span class="pill">¡Gracias por participar!</span><div class="survey-result-card"><h3>Tu opinión ayuda a validar la idea.</h3><p>Registramos tus respuestas de forma local en este navegador para actualizar el panel de interacción de la página.</p><p><strong>Cómo se utilizará:</strong> las respuestas agregadas pueden orientar decisiones sobre catálogo, experiencia de compra y canales de lanzamiento.</p></div><button class="btn" id="viewResultsBtn" type="button">Ver panel de interacción ↓</button> <button class="btn light" id="redoSurveyBtn" type="button">Responder de nuevo</button><p class="disclaimer">Las respuestas no se envían a un servidor. Esta es una demostración académica y no representa por sí sola un estudio estadístico de mercado.</p>`;$('viewResultsBtn').addEventListener('click',()=>{document.getElementById('impacto').scrollIntoView({behavior:'smooth'});logEvent('analytics_viewed','La persona abrió el panel de interacción')});$('redoSurveyBtn').addEventListener('click',resetSurvey);renderAnalytics()}
+function resetSurvey(){surveyStep=0;surveyAnswers={};surveyStarted=false;$('surveyForm').style.display='block';$('surveyResult').style.display='none';renderSurvey();document.getElementById('diagnostico').scrollIntoView({behavior:'smooth'});logEvent('survey_restarted','La persona volvió a iniciar la encuesta')}
+$('surveyBack').addEventListener('click',()=>{if(surveyStep>0){saveCurrentAnswer();surveyStep--;renderSurvey();logEvent('survey_previous','Volvió a una pregunta anterior')}});
+$('surveyNext').addEventListener('click',()=>{startSurvey();if(!saveCurrentAnswer())return;if(surveyStep<surveyQuestions.length-1){advanceSurvey();logEvent('survey_next','Avanzó a la pregunta '+(surveyStep+1))}else{completeSurvey()}});
+$('surveySkip').addEventListener('click',()=>{startSurvey();skipQuestion()});
+function fmtTime(iso){try{return new Date(iso).toLocaleTimeString('es-CO',{hour:'2-digit',minute:'2-digit'})}catch(e){return ''}}
+function drawBars(elId,items){let el=$(elId);if(!items.length){el.innerHTML='<div class="empty-state">Aún no hay interacciones registradas.</div>';return}let max=Math.max(1,...items.map(x=>x[1]));el.innerHTML=items.map(([label,val])=>`<div class="bar-item"><span>${label}</span><div class="bar-track"><div class="bar-fill" style="width:${Math.round(val/max*100)}%"></div></div><strong>${val}</strong></div>`).join('')}
+function renderAnalytics(){let d=getAnalytics();$('kpiSessions').textContent=d.sessions;$('kpiSurveys').textContent=d.surveyCompletes;$('kpiInterest').textContent=d.interest;$('kpiCompletion').textContent=(d.surveyStarts?Math.round(d.surveyCompletes/d.surveyStarts*100):0)+'%';
+ drawBars('sectionBars',Object.entries(d.sections).map(([k,v])=>[sectionNames[k]||k,v]).sort((a,b)=>b[1]-a[1]));
+ drawBars('surveyFunnel',[['Iniciadas',d.surveyStarts],['Completadas',d.surveyCompletes],['No completadas',Math.max(0,d.surveyStarts-d.surveyCompletes)]]);
+ drawBars('productBars',Object.entries(d.products).map(([k,v])=>[k,v]).sort((a,b)=>b[1]-a[1]));
+ const ev=$('eventList');ev.innerHTML=d.events.length?d.events.slice(0,12).map(e=>`<div class="event-row"><div><strong>${e.name.replaceAll('_',' ')}</strong><small>${e.detail||'Interacción registrada'}</small></div><span>${fmtTime(e.time)}</span></div>`).join(''):'<div class="empty-state">Las interacciones aparecerán aquí mientras navegas.</div>';
+ let ans=d.answers.concern||{};drawBars('answerSummary',Object.entries(ans).map(([k,v])=>[({simplicity:'Rutina simple',hydration:'Hidratación',oil:'Control de brillo',appearance:'Acabado natural',budget:'Compra consciente',guidance:'Información de ingredientes'})[k]||k,v]).sort((a,b)=>b[1]-a[1]));$('answerEmpty').style.display=Object.keys(ans).length?'none':'block';
+}
+function setupSectionTracking(){const targets=Object.keys(sectionNames).map(id=>document.getElementById(id)).filter(Boolean);if(!('IntersectionObserver'in window))return;const seen=new Set();const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting&&entry.intersectionRatio>=.25){let id=entry.target.id;if(!seen.has(id)){seen.add(id);let d=getAnalytics();d.sections[id]=(d.sections[id]||0)+1;saveAnalytics(d);logEvent('section_view',sectionNames[id]||id)}}}),{threshold:[.25,.5]});targets.forEach(el=>observer.observe(el))}
+document.querySelectorAll('[data-product]').forEach(card=>{const hit=()=>{let name=card.dataset.product;let d=getAnalytics();d.products[name]=(d.products[name]||0)+1;saveAnalytics(d);logEvent('product_interest',name);card.style.outline='2px solid #8ab6a3';setTimeout(()=>card.style.outline='',700)};card.addEventListener('click',hit);card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();hit()}})});
+$('interestBtn').addEventListener('click',()=>{let d=getAnalytics();d.interest++;saveAnalytics(d);logEvent('launch_interest_click','Clic en quiero conocer el lanzamiento');alert('¡Gracias por tu interés! En esta versión académica el clic se registra solo en este navegador; no se recopilan datos de contacto.');});
+$('exportAnalytics').addEventListener('click',()=>{let d=getAnalytics();let rows=[['fecha_hora','evento','detalle'],...d.events.map(e=>[e.time,e.name,e.detail])];let csv=rows.map(r=>r.map(v=>'"'+String(v??'').replaceAll('"','""')+'"').join(',')).join('\r\n');let blob=new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8;'});let url=URL.createObjectURL(blob);let a=document.createElement('a');a.href=url;a.download='dermoduo-eventos.csv';a.click();URL.revokeObjectURL(url);logEvent('analytics_exported','Exportó el registro de eventos CSV')});
+$('resetAnalytics').addEventListener('click',()=>{if(confirm('¿Quieres borrar los datos de demostración guardados en este navegador?')){localStorage.removeItem('dermoduoAnalyticsV2');let d=getAnalytics();saveAnalytics(d);logEvent('analytics_reset','Se reiniciaron los datos de demostración');renderAnalytics()}});
+(function init(){let d=getAnalytics();d.sessions++;d.events.unshift({name:'page_view',detail:'Se cargó la página',time:new Date().toISOString()});d.events=d.events.slice(0,150);saveAnalytics(d);renderSurvey();renderAnalytics();setupSectionTracking();document.getElementById('year').textContent=new Date().getFullYear()})();
+</script>
+</body>
+</html>
